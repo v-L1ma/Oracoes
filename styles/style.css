@@ -93,3 +93,25 @@ footer > div{
     font-size: 1.2em;
     color: white;
 }
+
+.linhas{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+.containerOracoes{
+    background-color: rgba(128, 128, 128, 0.151);
+    border-left: 4px solid rgb(0, 153, 224);
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 2px 5px 10px rgba(2, 48, 75, 0.082);
+}
+
+.nomeOracao{
+    font-family: "Cantata One", serif;
+    font-weight: bolder;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
