@@ -85,3 +85,10 @@ a{
 #link img{
     width: 50px;
 }
+
+.containerOracoes{
+    background-color: rgba(128, 128, 128, 0.205);
+    height: 300px;
+    border-left: 4px solid rgb(0, 153, 224);
+    margin: 15px;
+}
