@@ -1,7 +1,5 @@
-@font-face {
-    font-family: bonello;
-    src: url(/fonts/Bonello-Regular.otf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 
 *{
     margin: 0px;
@@ -63,7 +61,7 @@ main h1{
     width: 100%;
     height: 300px;
     margin-bottom: -10px;
-    
+    border-radius: 0px 0px 10px 10px;
 }
 
 .container-header{
@@ -79,16 +77,18 @@ a{
     text-decoration: none;
     color: white;
     font-size: 1.5em;
-    font-family: bonello;
 }
 
 #link img{
     width: 50px;
 }
 
-.containerOracoes{
-    background-color: rgba(128, 128, 128, 0.205);
-    height: 300px;
-    border-left: 4px solid rgb(0, 153, 224);
-    margin: 15px;
+footer > div{
+    margin-top: 20px;
+    padding: 10%;
+    text-align: center;
+    background-color: rgb(0, 132, 255);
+    font-family: monospace;
+    font-size: 1.2em;
+    color: white;
 }
